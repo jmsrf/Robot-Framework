@@ -3,7 +3,7 @@ Library           Selenium2Library
 Library           DateTime
 
 *** Tasks ***
-Search Friday
+Search_Friday
     [Documentation]    *Idea:*
     ...    The idea with this Robot Framework-task is to first navigate to VR.fi-page, search for train tickets to Helsinki - Oulu route and then navigate to Friday's trips which would be the actual day of the week for the train trip in this example. "Tasks" is used here instead of "Test Cases" so this is basically RPA (Robot Process Automation) as idea for this would be to automatically show next Friday's trips for user instead of actually testing VR.fi-site.
     ...
