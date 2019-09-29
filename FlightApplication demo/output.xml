@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20190603 12:58:38.977" generator="Robot 3.1.2 (Python 2.7.15rc1 on linux2)">
+<suite source="/home/m9022/Työpöytä/Robot_projects/Robot-Projects/Demo/Demo1.robot" id="s1" name="Demo1">
+<test id="s1-t1" name="TC02">
+<kw type="setup" name="SetupDemo">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>This is Setup method</arg>
+</arguments>
+<status status="PASS" endtime="20190603 12:58:39.113" starttime="20190603 12:58:39.113"></status>
+</kw>
+<status status="PASS" endtime="20190603 12:58:39.113" starttime="20190603 12:58:39.113"></status>
+</kw>
+<kw name="Should Not Be Equal As Strings" library="BuiltIn">
+<doc>Fails if objects are equal after converting them to strings.</doc>
+<arguments>
+<arg>@{USER}[0]</arg>
+<arg>@{USER}[1]</arg>
+</arguments>
+<status status="PASS" endtime="20190603 12:58:39.114" starttime="20190603 12:58:39.113"></status>
+</kw>
+<kw type="teardown" name="Teardowndemo">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>This is teardown</arg>
+</arguments>
+<status status="PASS" endtime="20190603 12:58:39.114" starttime="20190603 12:58:39.114"></status>
+</kw>
+<status status="PASS" endtime="20190603 12:58:39.114" starttime="20190603 12:58:39.114"></status>
+</kw>
+<tags>
+<tag>LOGIN</tag>
+</tags>
+<status status="PASS" endtime="20190603 12:58:39.114" critical="yes" starttime="20190603 12:58:39.112"></status>
+</test>
+<test id="s1-t2" name="TC04">
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>4</arg>
+<arg>4</arg>
+</arguments>
+<status status="PASS" endtime="20190603 12:58:39.115" starttime="20190603 12:58:39.115"></status>
+</kw>
+<tags>
+<tag>LOGIN</tag>
+</tags>
+<status status="PASS" endtime="20190603 12:58:39.115" critical="yes" starttime="20190603 12:58:39.115"></status>
+</test>
+<status status="PASS" endtime="20190603 12:58:39.116" starttime="20190603 12:58:38.978"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="2">Critical Tests</stat>
+<stat fail="0" pass="2">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="2">LOGIN</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Demo1" pass="2">Demo1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
