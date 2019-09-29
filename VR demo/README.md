@@ -1,7 +1,8 @@
 # VR
 
 Test Suite VR currently contains a task named "Search Friday". As the idea with that is to automate searcing train trips for Friday
-that is more of a task than actually testing VR-site.
+that is more of a task than actually testing VR-site. So ***Tasks*** is used instead of ***Test Cases*** for that as Robot nowadays supports
+also that which is great.
 
 ## Search Friday
 
