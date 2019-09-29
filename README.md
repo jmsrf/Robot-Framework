@@ -10,6 +10,6 @@ projects for example VR. Both are great and fun ways to learn about automating w
 - Geckodriver for Firefox and/or Chromedriver for Chrome. Changing browser can be done by modifying a keyword in test case-file which contains opening browser. Just simply replace Firefox with Chrome or other way if you want to use different browser than what is configured in test case.
 
 ## Instructions for running Robot-files ##
-- Navigate to folder containing Robot-files
+- Navigate to folder containing a Robot tst suite (.robot file) that you want to run. Open command line to that folder.
 - Syntax for running is robot -t testcasename testsuitename.
 For example robot -t Search Friday VR.robot
