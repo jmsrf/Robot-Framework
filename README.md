@@ -12,4 +12,4 @@ projects for example VR. Both are great and fun ways to learn about automating w
 ## Instructions for running Robot-files ##
 - Navigate to folder containing a Robot tst suite (.robot file) that you want to run. Open command line to that folder.
 - Syntax for running is robot -t testcasename testsuitename.
-For example robot -t Search Friday VR.robot
+For example robot -t Search_Friday VR.robot
