@@ -5,7 +5,7 @@ Library           DateTime
 *** Tasks ***
 Search Friday
     [Documentation]    *Idea:*
-    ...    The idea with this Robot Framework-task is to first navigate to VR.fi-page, search for train tickets to Helsinki - Oulu route and then navigate to Friday's trips which would be the actual day of the week for the train trip in this example. "Tasks" is used here instead of "Test Cases" so this is basically RPA (Robot Process Automation) as idea for this would be to automatically shoe next Friday's trips for user instead of actually testing VR.fi-site.
+    ...    The idea with this Robot Framework-task is to first navigate to VR.fi-page, search for train tickets to Helsinki - Oulu route and then navigate to Friday's trips which would be the actual day of the week for the train trip in this example. "Tasks" is used here instead of "Test Cases" so this is basically RPA (Robot Process Automation) as idea for this would be to automatically show next Friday's trips for user instead of actually testing VR.fi-site.
     ...
     ...    *How this works:*
     ...    After landing to VR.fi main page first station that the trip is started from and also destination station are filled to fields reserved from them on the page. After that 05:00 is put as time to search trips starting from that time. Now when search button is clicked the next page shows trips for this current day. Robot checks current day and based on that day it clicks appropriate amount of clicks for "next day"-button on trip results page to land to page showing Friday's train trips for searched route. If current day is actually Friday when this task is executed then there is no clicks and "Today is Friday" is logged instead.
