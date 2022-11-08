@@ -2,20 +2,20 @@
 Library           SeleniumLibrary
 
 *** Variables ***
-${nimi}           Etunimi Sukunimi
-${puh}            0400-261272
-${reitti}         Alajärvi - Jyväskylä Matkakeskus
-${lahto}          16:30
-${tunniste}       Valittu tunniste
-${tili}           FI12 3456 789 9876 54
-${email}          testimatkustaja@test.com
-${url}            https://www.matkahuolto.fi/nettilipun-peruutuslomake
+${name}           	Etunimi Sukunimi
+${phone}          	0400-XXXXXX
+${route}          	Helsinki - Oulu
+${departure}      	16:30
+${identification}	Chosen identification
+${tili}           	FIXX XXXX XXX XXX XX
+${email}          	testimatkustaja@test.com
+${url}            	https://www.matkahuolto.fi/nettilipun-peruutuslomake
 
 *** Keywords ***
-Avaa Lomake
+Open Form
     Open Browser    ${url}    Firefox
 
-Tayta Kentat
+Fill Fields
     Input Text    xpath://input[@name="name"]    ${nimi}
     Input Text    xpath://input[@name="email"]    ${email}
     Input Text    xpath://input[@name="phoneNumber"]    ${puh}
