@@ -3,6 +3,6 @@ Resource          Resources/CommonResources.robot
 
 *** Tasks ***
 Tayta peruutuslomake
-    [Documentation]    Nettilipun peruutuslomakkeen täyttö samana pysyvien kenttien osalta ilman lähetyksen automaattista painallusta
-    Avaa Lomake
-    Tayta Kentat
+    [Documentation]    Bus ticket cancellation form filling with those fields that stay the same. Does not send cancel request.
+    Open Form
+    Fill Fields
