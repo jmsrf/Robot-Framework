@@ -5,4 +5,5 @@ Resource          Resources/CommonResources.robot
 Tayta peruutuslomake
     [Documentation]    Bus ticket cancellation form filling with those fields that stay the same. Does not send cancel request.
     Open Form
+    Get Latest Date
     Fill Fields
