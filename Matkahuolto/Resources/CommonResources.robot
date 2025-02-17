@@ -14,7 +14,8 @@ ${url}            	https://www.matkahuolto.fi/nettilipun-peruutuslomake
 *** Keywords ***
 Open Form
     Open Browser    ${url}    Firefox
-    Maximize Browser Window 
+    Maximize Browser Window
+    Wait Until Element Is Visible  //button[normalize-space()='Hyväksy vain välttämättömät']  timeout=5s
     Click Element   //button[normalize-space()='Hyväksy vain välttämättömät']
 
 Fill Fields
