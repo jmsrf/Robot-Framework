@@ -1,6 +1,5 @@
 # Robot-Framework
-This repository contains my Robot Framework-projects. Some are demos based on courses and some are my own
-projects for example VR. Both are great and fun ways to learn about automating with Robot!
+This repository contains my Robot Framework-projects.
 
 ## Requirements/possible installations for running robot-files: ##
 - Python. 2.7.15 is a good version if Python is not already installed. Run python --version on command line to check installation.
@@ -12,4 +11,3 @@ projects for example VR. Both are great and fun ways to learn about automating w
 ## Instructions for running Robot-files ##
 - Navigate to folder containing a Robot tst suite (.robot file) that you want to run. Open command line to that folder.
 - Syntax for running is robot -t testcasename testsuitename.
-For example robot -t Search_Friday VR.robot
